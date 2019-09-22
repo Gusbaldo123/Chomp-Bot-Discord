@@ -1,0 +1,12 @@
+{ 
+    "help": ["help"],
+    "playlist": "playlist", 
+    "prefix": "prefix",
+    "setprefix": "setprefix",
+    "d": "d",
+    "shitpost": "shitpost",
+    "clear":"clear",
+    "xp": "xp",
+    "ficha": "ficha",
+    "char": "char"
+}

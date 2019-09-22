@@ -1,0 +1,25 @@
+{ 
+    "help": "help = Visualizar os comandos", 
+    "playlist": "Visualiza as playlists",
+    "prefix": "prefix = Visualizar o prefixo",
+    "setprefix": "setprefix { Prefixo_novo } = Trocar o prefixo",
+    "clear" : "clear { Numero_de_Msgs } = Limpa o char",
+    "d": "d { Numero_De_Lados } {>/</==/!= Caso_Necessário} = Rolla um dado",
+    "xp": "xp { Nível_Atual } { Xp_Atual } {Xp_Ganho} = Calcula nível",
+    "ficha": "ficha = Visualiza o modelo de ficha padrão\n",
+    "shitpost": 
+    [
+        "\nshitpost { Numero_De_Vezes }",
+        "\nshitpost { Tipo: img ou vid} { ID, se não colocado vai aleatório }\n"
+    ],
+    "char":
+    [
+        "\nchar status { Primeiro_Nome_Do_Personagem } = Ver status do personagem",
+        "\nchar add = Criar personagem",
+        "\nchar alt {Nome_Do_Personagem} {Status} {Valor} = Altera status",
+        "\nchar del {Nome_do_Personagem} = Deleta o char",
+        "\n\nchar skills list { Primeiro_Nome_Do_Personagem } = Listar skills personagem",
+        "\nchar skills add { Primeiro_Nome_Do_Personagem } = cria skills personagem"
+    ]
+    
+}
