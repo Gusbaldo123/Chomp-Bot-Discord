@@ -690,7 +690,7 @@ module.exports = {
                                                 return 1;
                                             }
 
-                                            calc += "( Min: " + eval(calc) + " dmg, Max: " + eval(cot) + " dmg*2 pq é critico, = " + eval("(" + cot + ")*2") + " dmg)";
+                                            calc += " ( Min: " + eval(calc) + " dmg, Max: " + eval(cot) + " dmg*2 pq é critico, = " + eval("(" + cot + ")*2") + " dmg)";
 
                                             let des = result.descr;
                                             mess += "Lvl " + lvl + '( ' + mp + 'Mp ): '+nome+': Formula: "' + calc + '".\nDescrição: "' + des + '"\n\n';
