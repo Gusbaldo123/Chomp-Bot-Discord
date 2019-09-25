@@ -172,7 +172,7 @@ module.exports = {
                 }
             }
             shitp(ar, args, message, vale);
-        }
+        }//A
         else if (command == "char") {
             let com2 = args[0].toLowerCase();
             let com3 = args[1].toLowerCase();
