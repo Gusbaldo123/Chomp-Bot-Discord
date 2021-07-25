@@ -9,15 +9,15 @@ const fs = require('fs');
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'remotemysql.com',
-  user     : '6IW1dAuFfw',
-  password : 'Gn21QqCgFY',
-  database : '6IW1dAuFfw'
+  host     : 'Alterar host',
+  user     : 'Alterar user',
+  password : 'Alterar password',
+  database : 'Alterar database'
 });
 connection.connect();
 
 bot.login(process.env.BOT_TOKEN);
-//bot.login('NDk4NTc3NzEwMTM0NzIyNTcw.XXQaCw.ChvHCu2-MdPjsGc1EuC_V8KrAmM');
+//bot.login('token');
 
 var standard_input = process.stdin;
 standard_input.setEncoding('utf-8');
